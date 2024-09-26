@@ -1,7 +1,9 @@
 # ZPL2FTP
 Simple example ZPL editor and ZPL file transfer to FTP server
 ---
-2do: 'LOAD/SAVE AS label' button
+You can edit ZPL code in the right panel. Manualy or trough the left edit boxes (if you use template code).  
+Template ZPL is copy from Laberly online viewer [Laberly viewer](https://labelary.com/viewer.html)  
+2do: 'LOAD/SAVE AS label' button  
 
 ### After compile there should be:
 - ZPL_files/              - folder for ZPL files
