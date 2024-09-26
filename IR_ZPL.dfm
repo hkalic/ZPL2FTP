@@ -182,9 +182,9 @@ object Form1: TForm1
         773
         57)
       object Label1: TLabel
-        Left = 254
+        Left = 433
         Top = 15
-        Width = 278
+        Width = 307
         Height = 24
         Cursor = crHandPoint
         Caption = 'http://labelary.com/viewer.html'
@@ -202,10 +202,10 @@ object Form1: TForm1
       object Label2: TLabel
         Left = 43
         Top = 19
-        Width = 205
+        Width = 376
         Height = 18
         Anchors = [akTop, akRight]
-        Caption = 'Copy ZPL code then paste to:'
+        Caption = 'For the view of the label, Copy ZPL code then paste to:'
       end
     end
     object Panel1: TPanel
