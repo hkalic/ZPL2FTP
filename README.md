@@ -1,5 +1,6 @@
 # ZPL2FTP
 Simple example ZPL editor and ZPL file transfer to FTP server
+---
 2do: LOAD label button
 
 ### After compile there should be:
