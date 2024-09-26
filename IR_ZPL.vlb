@@ -1,0 +1,16 @@
+﻿[TopPanel]
+Coordinates=10,144,69,58
+
+[LeftPanel]
+Coordinates=206,10,69,58
+
+[RightPanel]
+Coordinates=89,144,78,58
+
+[MainPanel]
+Coordinates=121,10,75,58
+
+[]
+Coordinates=10,10,101,124
+Visible=True
+
