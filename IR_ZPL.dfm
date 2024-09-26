@@ -26,15 +26,16 @@ object Form1: TForm1
       Left = 383
       Top = 61
       Width = 388
-      Height = 537
+      Height = 496
       Align = alClient
       TabOrder = 0
+      ExplicitHeight = 537
       object ZPLCode: TMemo
         AlignWithMargins = True
         Left = 1
         Top = 1
         Width = 386
-        Height = 535
+        Height = 494
         Margins.Left = 0
         Margins.Top = 0
         Margins.Right = 0
@@ -46,6 +47,7 @@ object Form1: TForm1
           '^XZ')
         PopupMenu = PopupMenu2
         TabOrder = 0
+        ExplicitHeight = 535
       end
     end
     object RightPanel: TPanel
@@ -53,9 +55,10 @@ object Form1: TForm1
       Left = 4
       Top = 61
       Width = 373
-      Height = 537
+      Height = 496
       Align = alLeft
       TabOrder = 1
+      ExplicitHeight = 537
       object LabeledEdit1: TLabeledEdit
         Left = 128
         Top = 32
@@ -204,6 +207,19 @@ object Form1: TForm1
         Anchors = [akTop, akRight]
         Caption = 'Copy ZPL code then paste to:'
       end
+    end
+    object Panel1: TPanel
+      Left = 1
+      Top = 560
+      Width = 773
+      Height = 41
+      Align = alBottom
+      Alignment = taRightJustify
+      Caption = 'Thank you Labelary.com   '
+      TabOrder = 3
+      ExplicitLeft = 296
+      ExplicitTop = 280
+      ExplicitWidth = 185
     end
   end
   object FTP: TIdFTP

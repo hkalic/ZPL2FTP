@@ -1,7 +1,7 @@
 # ZPL2FTP
 Simple example ZPL editor and ZPL file transfer to FTP server
 ---
-2do: LOAD label button
+2do: 'LOAD/SAVE AS label' button
 
 ### After compile there should be:
 - ZPL_files/              - folder for ZPL files
@@ -14,11 +14,17 @@ Simple example ZPL editor and ZPL file transfer to FTP server
 ### Settings file (IR.INI):
 ```
 [FTP]
-host=192.168.0.175  ; IP adress of the FTP server
-username=ftp-user   ; username for the FTP server
-password=1234       ; password for the FTP server (yeah I know)
+; IP adress of the FTP server
+host=192.168.0.175  
+; username for the FTP server
+username=ftp-user   
+; password for the FTP server (yeah I know)
+password=1234       
 
 [LABEL]
-template=lbrly.zpl  ; default label which is loaded in editor (DEFAULT button)
-final=newlabel.zpl  ; label which is saved after pressing on SAVE button
+; default label which is loaded in editor (DEFAULT button)
+template=lbrly.zpl  
+; label which is saved after pressing on SAVE button
+final=newlabel.zpl  
 ```
+

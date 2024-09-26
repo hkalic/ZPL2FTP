@@ -49,6 +49,7 @@ type
     PopupMenu2 : TPopupMenu;
     CopytoClipboard2 : TMenuItem;
     Label2: TLabel;
+    Panel1: TPanel;
     procedure UcitajZPL( Sender : TObject );
     procedure posaljiClick( Sender : TObject );
     procedure FormCreate( Sender : TObject );
