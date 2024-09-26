@@ -1,7 +1,7 @@
 # ZPL2FTP
 Simple ZPL editor and send ZPL file to FTP server
 
-After compile there should be:
+## After compile there should be:
 ZPL_files/          - folder for ZPL files
     lbrly.zpl       - default ZPL
     newlabel.zpl    - edited ZPL
@@ -9,7 +9,7 @@ IR.exe                  - main executable
 IR.INI                  - settings text file
 IR_ZPL.dcu (probably)   - Delphi file
 
-Settings file:
+## Settings file:
 [FTP]
 host=192.168.0.175  - IP adress of the FTP server
 username=ftp-user   - username for the FTP server
