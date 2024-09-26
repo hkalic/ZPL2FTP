@@ -139,7 +139,7 @@ object Form1: TForm1
         Top = 176
         Width = 75
         Height = 25
-        Caption = 'START FTP'
+        Caption = 'FTP SEND'
         TabOrder = 3
         OnClick = posaljiClick
       end
@@ -181,7 +181,7 @@ object Form1: TForm1
       object Label1: TLabel
         Left = 254
         Top = 15
-        Width = 467
+        Width = 278
         Height = 24
         Cursor = crHandPoint
         Caption = 'http://labelary.com/viewer.html'

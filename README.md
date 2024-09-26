@@ -11,7 +11,6 @@ Simple ZPL editor and send ZPL file to FTP server
 
 ### Settings file:
 ```
-{
 [FTP]
 host=192.168.0.175  ; IP adress of the FTP server
 username=ftp-user   ; username for the FTP server
@@ -20,5 +19,4 @@ password=1234       ; password for the FTP server (yeah I know)
 [LABEL]
 template=lbrly.zpl  ; default label which is loaded in editor (DEFAULT button)
 final=newlabel.zpl  ; label which is saved after pressing on SAVE button
-}
 ```
